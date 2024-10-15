@@ -1,1 +1,1 @@
-# calculator
+Hola este es el repositorio de mi ultimo proyecto de el FOundations Course de The Odin Proyect llamado calculator.
