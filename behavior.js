@@ -66,15 +66,12 @@ buttons.forEach((buttons) => {
             break;
         }
 
-        
         if (!isNaN(parseFloat(value))) {
-            
             if (banderita || result.textContent == "0") {
                 result.textContent = value; 
                 banderita = false;
             }  
             else result.textContent += value;  
-            
         } 
         
         if (value == "." && !(result.textContent.includes("."))) {
@@ -87,7 +84,6 @@ buttons.forEach((buttons) => {
             result.textContent = arr.join("");
             if (arr.length < 1) result.textContent = "0";
         } 
-        
     });
 });
 
